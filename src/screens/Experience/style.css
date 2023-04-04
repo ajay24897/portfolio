@@ -1,0 +1,52 @@
+.exp-wrapper {
+  display: flex;
+  /* min-height: 100vh; */
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.experience-list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.company-name {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0rem;
+}
+.company-name-text {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.project-name-wrapper {
+  margin-top: 0.75rem;
+}
+
+.project-name {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.duration-text {
+  font-size: 1rem;
+}
+
+li {
+  margin: 0.25rem 1.5rem;
+}
+.skills-used {
+  margin: 0.25rem 0rem;
+}
+.other-info-wrapper {
+  margin-top: 0.5rem;
+}
+.otherInfo {
+  margin: 0.25rem 0rem;
+}
+.module-name {
+  font-weight: 700;
+}

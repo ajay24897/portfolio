@@ -1,0 +1,84 @@
+.experience-list-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.exp-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#exp-main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 60%; */
+  margin-top: 10rem;
+}
+
+.flex-column-about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.75rem;
+}
+.about-sub-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.hobbies-shadow {
+  border-radius: 0.75rem;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  padding: 0.75rem;
+}
+.about-text {
+  margin-bottom: 0.25rem;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+}
+.about-card {
+  display: flex;
+  width: 50%;
+  margin: 0.5rem;
+  min-height: 8rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#connect-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .about-row {
+    flex-wrap: wrap;
+  }
+  .about-card {
+    display: flex;
+    width: 100%;
+    margin: 0.5rem;
+    min-height: 8rem;
+  }
+  #connect-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+.about-icons {
+  margin-bottom: 0.5rem;
+  width: 6rem;
+  height: 6rem;
+}
