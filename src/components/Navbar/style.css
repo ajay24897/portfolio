@@ -27,12 +27,17 @@
   margin: 0rem 2rem;
 }
 .navbar-right-item {
-  margin-right: 2rem;
+  margin-left: 2rem;
+  cursor: pointer;
 }
+
 #navbar-right-section-hamburger {
   display: none;
 }
 
+#bar-icon {
+  transform: rotate(-90deg);
+}
 @media screen and (max-width: 767px) {
   #navbar-right-section-hamburger {
     display: flex;

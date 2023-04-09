@@ -5,31 +5,28 @@ import { MdEmail } from "react-icons/md";
 function Connect() {
   return (
     <div id="connect-wrapper">
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          flexDirection: "column",
-        }}
-      >
+      <div className="flex-c-center-h">
         <MdEmail size={"4rem"} color="#808080" />
         <text className="about-sub-title">Email</text>
-        <text style={{ marginLeft: ".5rem", marginBottom: "2rem" }}>
+        <text
+          className="connect-info"
+          onClick={() =>
+            (document.location.href = "mailto:ajaychawda1997@gmail.com")
+          }
+        >
           ajaychawda1997@gmail.com
         </text>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          marginBottom: "0.5rem",
-        }}
-      >
+      <div className="flex-c-center-h">
         <HiPhone size={"4rem"} color="#808080" />
         <text className="about-sub-title">Phone</text>
 
-        <text style={{ marginLeft: ".5rem", size: "1rem" }}>
+        <text
+          className="connect-info"
+          onClick={() => {
+            navigator.clipboard.writeText("+917021375254");
+          }}
+        >
           +91 7021375254
         </text>
       </div>

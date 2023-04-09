@@ -12,6 +12,7 @@
   --dark-blue: #1b5583;
   --white: #fff;
   --black-shadow: rgba(0, 0, 0, 0.24);
+  --grey: #f9f9f9;
 }
 
 body {
@@ -47,6 +48,12 @@ a {
 .flex-r-center {
   display: flex;
   justify-content: center;
+}
+
+.flex-c-center-h {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .common-pages-wrapper {

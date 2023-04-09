@@ -33,7 +33,7 @@ function Navbar() {
         <text className="navbar-right-item" onClick={() => scrollTo("about")}>
           About
         </text>
-        <text className="navbar-expanded" onClick={() => scrollTo("contact")}>
+        <text className="navbar-right-item" onClick={() => scrollTo("contact")}>
           Contact
         </text>
       </div>
@@ -41,12 +41,7 @@ function Navbar() {
         {showMobileMenu ? (
           <RiCloseLine size={"1.5rem"} />
         ) : (
-          <FiBarChart2
-            style={{
-              transform: "rotate(-90deg)",
-            }}
-            size={"1.5rem"}
-          />
+          <FiBarChart2 id="bar-icon" size={"1.5rem"} />
         )}
         {showMobileMenu && (
           <div id="slide-menu">
