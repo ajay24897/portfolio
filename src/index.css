@@ -13,6 +13,8 @@
   --white: #fff;
   --black-shadow: rgba(0, 0, 0, 0.24);
   --grey: #f9f9f9;
+  --charcoal-black: #36454f;
+  --black: #000;
 }
 
 body {
@@ -29,11 +31,8 @@ code {
     monospace;
 }
 a {
-  color: #000;
+  color: var(--black);
   text-decoration: none;
-}
-.dimGrey {
-  color: "#696969";
 }
 
 .flex-row {

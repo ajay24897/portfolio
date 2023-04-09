@@ -53,6 +53,10 @@
   justify-content: center;
   margin-bottom: 1rem;
   font-weight: 600;
+  color: var(--charcoal-black);
+}
+.project-tech {
+  color: var(--charcoal-black);
 }
 
 .demo-text {

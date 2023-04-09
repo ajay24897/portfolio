@@ -54,7 +54,7 @@ function Projects() {
               </div>
 
               <text className="project-description">{item.description}</text>
-              <text>{item.tech}</text>
+              <text className="project-tech">{item.tech}</text>
 
               <a href={item.link} target={"_blank"} rel="noreferrer">
                 <div className="demo-text">
