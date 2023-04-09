@@ -2,13 +2,13 @@ import React from "react";
 import "./style.css";
 import { HiLink } from "react-icons/hi";
 import Connect from "./connect";
-import Degree from "../../assets/icons/education.png";
-import Hobbies from "../../assets/icons/hobbies.png";
-import certificate from "../../assets/icons/certificate.png";
-import contribute from "../../assets/icons/jigsaw.png";
+import DegreeIcon from "../../assets/icons/education.png";
+import HobbiesIcon from "../../assets/icons/hobbies.png";
+import CertificateIcon from "../../assets/icons/certificate.png";
+import ContributeIcon from "../../assets/icons/jigsaw.png";
 
 function About() {
-  let certificates = [
+  const certificatesList = [
     {
       text: "Javascript course by Jonas Schmedtman",
       link: "https://www.udemy.com/certificate/UC-2ed55c2b-a90f-401e-98bd-1180ca9760d6/",
@@ -23,7 +23,7 @@ function About() {
     },
   ];
 
-  let openSource = [
+  const openSource = [
     {
       text: "react-native-voice-control",
       link: "https://www.npmjs.com/package/@metasys96/react-native-voice-control",
@@ -33,13 +33,12 @@ function About() {
       link: "https://www.npmjs.com/package/@metasys96/react-native-form-fields",
     },
   ];
+
   return (
     <div className="common-pages-wrapper" id="about">
       <div className="common-width">
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <text className="title" style={{ alignSelf: "center" }}>
-            More About me
-          </text>
+        <div className="flex-r-center">
+          <text className="title">More About me</text>
         </div>
 
         <div className="about-row">
@@ -47,7 +46,11 @@ function About() {
             className="flex-column-about hobbies-shadow about-card"
             id="education"
           >
-            <img className="about-icons" src={Degree} />
+            <img
+              className="about-icons"
+              src={DegreeIcon}
+              alt={"Degree-icons"}
+            />
             <text className="about-sub-title">Education</text>
             <text className="about-text">B.Tech from Mumbai university 👨🏻‍🎓</text>
             <text className="about-text">
@@ -55,7 +58,11 @@ function About() {
             </text>
           </div>
           <div className="flex-column-about hobbies-shadow about-card">
-            <img className="about-icons" src={contribute} />
+            <img
+              className="about-icons"
+              src={ContributeIcon}
+              alt={"contribute-icons"}
+            />
 
             <text className="about-sub-title">Open-source Packages</text>
 
@@ -70,11 +77,15 @@ function About() {
         </div>
         <div className="about-row">
           <div className="flex-column-about hobbies-shadow about-card">
-            <img className="about-icons" src={certificate} />
+            <img
+              className="about-icons"
+              src={CertificateIcon}
+              alt={"certificate-icon"}
+            />
 
             <text className="about-sub-title">Certifications</text>
 
-            {certificates.map(({ text, link }) => (
+            {certificatesList.map(({ text, link }) => (
               <text className="about-text">
                 <a href={link} target={"_blank"} rel="noreferrer">
                   {text} <HiLink />
@@ -86,9 +97,8 @@ function About() {
           <div className="flex-column-about hobbies-shadow about-card">
             <img
               className="about-icons"
-              src={Hobbies}
-              width={"100px"}
-              height={"100px"}
+              src={HobbiesIcon}
+              alt={"Hobbies-icon"}
             />
 
             <text className="about-sub-title">Hobbies</text>
@@ -104,20 +114,8 @@ function About() {
       </div>
 
       <div className="common-width" id="contact">
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            background: "#f9f9f9",
-            paddingBottom: "1.75rem",
-
-            marginBottom: "3rem",
-          }}
-        >
-          <text className="title" style={{ alignSelf: "center" }}>
-            Let's Connect
-          </text>
+        <div id="connect-text">
+          <text className="title">Let's Connect</text>
           <Connect />
         </div>
       </div>

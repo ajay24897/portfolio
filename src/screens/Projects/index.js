@@ -28,6 +28,7 @@ function Projects() {
       link: "https://ajay24897.github.io/Todo-web-app/",
     },
   ];
+
   return (
     <div className="common-pages-wrapper" id="projects">
       <div id="page-wrapper" className="common-width">

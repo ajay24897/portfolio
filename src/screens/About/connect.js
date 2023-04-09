@@ -12,7 +12,7 @@ function Connect() {
           flexDirection: "column",
         }}
       >
-        <MdEmail size={"4rem"} color="#808080" />{" "}
+        <MdEmail size={"4rem"} color="#808080" />
         <text className="about-sub-title">Email</text>
         <text style={{ marginLeft: ".5rem", marginBottom: "2rem" }}>
           ajaychawda1997@gmail.com

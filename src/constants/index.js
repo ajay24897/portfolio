@@ -1,3 +1,11 @@
+import AndroidStudio from "../assets/logos/android-studio.svg";
+import Xcode from "../assets/logos/xcode.svg";
+import ReactNative from "../assets/logos/react-native-1.svg";
+import Typescript from "../assets/logos/typescript.svg";
+import { AiFillHtml5 } from "react-icons/ai";
+import { IoLogoCss3 } from "react-icons/io";
+import { SiJavascript, SiReact } from "react-icons/si";
+
 const route = {
   home: "/",
   men: "/men",
@@ -7,7 +15,56 @@ const route = {
   404: "*",
   authentication: "authentication",
 };
-
+/// home ///
+export const skillList = [
+  {
+    logo: AiFillHtml5,
+    logoProps: {
+      color: "#E65100",
+      size: "3rem",
+    },
+  },
+  {
+    logo: IoLogoCss3,
+    logoProps: {
+      color: "#0277BD",
+      size: "3rem",
+    },
+  },
+  {
+    logo: SiJavascript,
+    logoProps: {
+      color: "#FFD600",
+      size: "3rem",
+      style: { background: "black" },
+    },
+  },
+  {
+    logo: SiReact,
+    logoProps: {
+      color: "#80DEEA",
+      size: "3rem",
+    },
+  },
+];
+export const skillList2 = [
+  {
+    src: ReactNative,
+    text: "React Native",
+  },
+  {
+    src: AndroidStudio,
+    text: "Android Studio",
+  },
+  {
+    src: Xcode,
+    text: "Xcode",
+  },
+  {
+    src: Typescript,
+    text: "Typescript",
+  },
+];
 const ExperienceCodemonk = [
   {
     companyName: "Codemonk",

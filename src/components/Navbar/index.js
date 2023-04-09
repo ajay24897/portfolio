@@ -5,7 +5,7 @@ import { FiBarChart2 } from "react-icons/fi";
 import "./style.css";
 
 function Navbar() {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   const scrollTo = (id) => {
     let page = document.getElementById(id);
@@ -13,8 +13,9 @@ function Navbar() {
   };
 
   const handleMenuClick = () => {
-    setShowMenu((prev) => !prev);
+    setShowMobileMenu((prev) => !prev);
   };
+
   return (
     <div id="navbarWrapper">
       <div id="navbar-left-section">Ajay.dev</div>
@@ -37,7 +38,7 @@ function Navbar() {
         </text>
       </div>
       <div id="navbar-right-section-hamburger" onClick={handleMenuClick}>
-        {showMenu ? (
+        {showMobileMenu ? (
           <RiCloseLine size={"1.5rem"} />
         ) : (
           <FiBarChart2
@@ -47,7 +48,7 @@ function Navbar() {
             size={"1.5rem"}
           />
         )}
-        {showMenu && (
+        {showMobileMenu && (
           <div id="slide-menu">
             <text className="navbar-expanded" onClick={() => scrollTo("home")}>
               Home
