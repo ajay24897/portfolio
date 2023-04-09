@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2f5dbecb.css",
-    "main.js": "/portfolio/static/js/main.23b050b0.js",
+    "main.css": "/portfolio/static/css/main.c0702b53.css",
+    "main.js": "/portfolio/static/js/main.ccc01d3d.js",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.576d4051a83bd18e2cb4.jpeg",
     "static/media/todo.png": "/portfolio/static/media/todo.7bdb11c5f307791a0349.png",
@@ -15,11 +15,11 @@
     "static/media/android-studio.svg": "/portfolio/static/media/android-studio.022ae30b7e412a5dd0f5b606fa0c8da7.svg",
     "index.html": "/portfolio/index.html",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
-    "main.2f5dbecb.css.map": "/portfolio/static/css/main.2f5dbecb.css.map",
-    "main.23b050b0.js.map": "/portfolio/static/js/main.23b050b0.js.map"
+    "main.c0702b53.css.map": "/portfolio/static/css/main.c0702b53.css.map",
+    "main.ccc01d3d.js.map": "/portfolio/static/js/main.ccc01d3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f5dbecb.css",
-    "static/js/main.23b050b0.js"
+    "static/css/main.c0702b53.css",
+    "static/js/main.ccc01d3d.js"
   ]
 }
