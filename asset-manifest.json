@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c0bbbed2.css",
-    "main.js": "/portfolio/static/js/main.2b0da6ef.js",
+    "main.css": "/portfolio/static/css/main.6216b776.css",
+    "main.js": "/portfolio/static/js/main.4cf70b2b.js",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.3fd9bda46143fb6008fe.pdf",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.576d4051a83bd18e2cb4.jpeg",
     "static/media/todo.png": "/portfolio/static/media/todo.7bdb11c5f307791a0349.png",
     "static/media/jigsaw.png": "/portfolio/static/media/jigsaw.a446ec74a014be10917a.png",
@@ -15,11 +16,11 @@
     "static/media/android-studio.svg": "/portfolio/static/media/android-studio.022ae30b7e412a5dd0f5b606fa0c8da7.svg",
     "index.html": "/portfolio/index.html",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
-    "main.c0bbbed2.css.map": "/portfolio/static/css/main.c0bbbed2.css.map",
-    "main.2b0da6ef.js.map": "/portfolio/static/js/main.2b0da6ef.js.map"
+    "main.6216b776.css.map": "/portfolio/static/css/main.6216b776.css.map",
+    "main.4cf70b2b.js.map": "/portfolio/static/js/main.4cf70b2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0bbbed2.css",
-    "static/js/main.2b0da6ef.js"
+    "static/css/main.6216b776.css",
+    "static/js/main.4cf70b2b.js"
   ]
 }
