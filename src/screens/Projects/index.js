@@ -32,13 +32,18 @@ function Projects() {
   return (
     <div className="common-pages-wrapper" id="projects">
       <div id="page-wrapper" className="common-width">
-        <text className="title">Let's check personal projects</text>
+        <text className="title" data-aos="fade-up">
+          Let's check personal projects
+        </text>
         {project.map((item, index) => (
           <div
             style={{
               flexDirection: index % 2 ? "row-reverse" : "row",
+              overflowX: "hidden",
             }}
             className="wrap-project project-content"
+            data-aos="fade-up"
+            data-aos-duration="1000"
           >
             <img src={item.image} className="website-images" alt={item.name} />
             <div className="description-wrapper">

@@ -4,7 +4,6 @@
   box-sizing: border-box;
   transition: all 0.5s ease-in;
   scroll-padding-top: 3rem;
-  /* overflow-x: hidden; */
 }
 
 :root {
@@ -56,7 +55,6 @@ a {
 }
 
 .common-pages-wrapper {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

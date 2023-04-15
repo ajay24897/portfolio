@@ -44,7 +44,7 @@ function Navbar() {
           <FiBarChart2 id="bar-icon" size={"1.5rem"} />
         )}
         {showMobileMenu && (
-          <div id="slide-menu">
+          <div id="slide-menu" data-aos="fade-left" data-aos-duration="1000">
             <text className="navbar-expanded" onClick={() => scrollTo("home")}>
               Home
             </text>

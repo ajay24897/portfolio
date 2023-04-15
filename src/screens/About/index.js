@@ -38,7 +38,9 @@ function About() {
     <div className="common-pages-wrapper" id="about">
       <div className="common-width">
         <div className="flex-r-center">
-          <text className="title">More About me</text>
+          <text className="title" data-aos="fade-up">
+            More About me
+          </text>
         </div>
 
         <div className="about-row">
@@ -50,10 +52,27 @@ function About() {
               className="about-icons"
               src={DegreeIcon}
               alt={"Degree-icons"}
+              data-aos="fade-right"
             />
-            <text className="about-sub-title">Education</text>
-            <text className="about-text">B.Tech from Mumbai university 👨🏻‍🎓</text>
-            <text className="about-text">
+            <text
+              className="about-sub-title"
+              data-aos="fade-right"
+              data-aos-duration="1250"
+            >
+              Education
+            </text>
+            <text
+              className="about-text"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              B.Tech from Mumbai university 👨🏻‍🎓
+            </text>
+            <text
+              className="about-text"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               St. Francis insitute of technology - 2019
             </text>
           </div>
@@ -62,12 +81,23 @@ function About() {
               className="about-icons"
               src={ContributeIcon}
               alt={"contribute-icons"}
+              data-aos="fade-left"
             />
 
-            <text className="about-sub-title">Open-source Packages</text>
+            <text
+              className="about-sub-title"
+              data-aos="fade-left"
+              data-aos-duration="1250"
+            >
+              Open-source Packages
+            </text>
 
             {openSource.map(({ text, link }) => (
-              <text className="about-text">
+              <text
+                className="about-text"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
                 <a href={link} target={"_blank"} rel="noreferrer">
                   {text} <HiLink />
                 </a>
@@ -81,12 +111,23 @@ function About() {
               className="about-icons"
               src={CertificateIcon}
               alt={"certificate-icon"}
+              data-aos="fade-right"
             />
 
-            <text className="about-sub-title">Certifications</text>
+            <text
+              className="about-sub-title"
+              data-aos="fade-right"
+              data-aos-duration="1250"
+            >
+              Certifications
+            </text>
 
             {certificatesList.map(({ text, link }) => (
-              <text className="about-text">
+              <text
+                className="about-text"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
                 <a href={link} target={"_blank"} rel="noreferrer">
                   {text} <HiLink />
                 </a>
@@ -99,23 +140,46 @@ function About() {
               className="about-icons"
               src={HobbiesIcon}
               alt={"Hobbies-icon"}
+              data-aos="fade-left"
             />
 
-            <text className="about-sub-title">Hobbies</text>
-            <text className="about-text">
+            <text
+              className="about-sub-title"
+              data-aos="fade-left"
+              data-aos-duration="1250"
+            >
+              Hobbies
+            </text>
+            <text
+              className="about-text"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               Building projects & Upskilling 📈
             </text>
-            <text className="about-text">
-              Trekking, Listening to music & Singing 😅
+            <text
+              className="about-text"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              Trekking & Listening to music 🎧
             </text>
-            <text className="about-text">Travelling 🚗</text>
+            <text
+              className="about-text"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              Travelling 🚗
+            </text>
           </div>
         </div>
       </div>
 
       <div className="common-width" id="contact">
         <div id="connect-text">
-          <text className="title">Let's Connect</text>
+          <text className="title" data-aos="fade-up">
+            Let's Connect
+          </text>
           <Connect />
         </div>
       </div>

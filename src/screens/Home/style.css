@@ -32,8 +32,8 @@
   border-radius: 50% 50%;
 }
 
-#linkedin-icon {
-  margin-right: 0.5rem;
+.icon {
+  margin-right: 0.75rem;
 }
 
 #tech-stack-text {
@@ -46,6 +46,7 @@
 #skill-conatiner {
   min-width: 60%;
   align-self: center;
+  margin-bottom: 3rem;
 }
 
 .skill-list-2 {
