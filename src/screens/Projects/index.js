@@ -15,7 +15,7 @@ function Projects() {
     {
       image: VoiasAI,
       logo: voiceSearchLogo,
-      name: "Voice AI",
+      name: "Voias AI",
       description:
         "A Voice assistent app, allows to search query through voice recognition and creates an image from description with elegant UI.",
       tech: <b>React Native & OpenAI (ChatGPT & Dall-E)</b>,
