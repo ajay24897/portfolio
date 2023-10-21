@@ -2,13 +2,25 @@ import React from "react";
 import SNKRS from "../../assets/project_banner/snkrs.png";
 import todo from "../../assets/project_banner/todo.png";
 import done from "../../assets/icons/done.png";
+import VoiasAI from "../../assets/project_banner/voiasAI.png";
 
 import snkrLogo from "../../assets/icons/sneakers.png";
+import voiceSearchLogo from "../../assets/icons/voice_search.png";
+
 import "./style.css";
 import { TbExternalLink } from "react-icons/tb";
 
 function Projects() {
   const project = [
+    {
+      image: VoiasAI,
+      logo: voiceSearchLogo,
+      name: "Voice AI",
+      description:
+        "A Voice assistent app, allows to search query through voice recognition and creates an image from description with elegant UI.",
+      tech: <b>React Native & OpenAI (ChatGPT & Dall-E)</b>,
+      link: "",
+    },
     {
       image: SNKRS,
       logo: snkrLogo,
@@ -61,12 +73,14 @@ function Projects() {
               <text className="project-description">{item.description}</text>
               <text className="project-tech">{item.tech}</text>
 
-              <a href={item.link} target={"_blank"} rel="noreferrer">
-                <div className="demo-text">
-                  <text className="demo-text-space">Live Demo</text>
-                  <TbExternalLink size={"1.25rem"} />
-                </div>
-              </a>
+              {!!item?.link?.length && (
+                <a href={item.link} target={"_blank"} rel="noreferrer">
+                  <div className="demo-text">
+                    <text className="demo-text-space">Live Demo</text>
+                    <TbExternalLink size={"1.25rem"} />
+                  </div>
+                </a>
+              )}
             </div>
           </div>
         ))}
