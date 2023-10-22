@@ -19,7 +19,7 @@ function Projects() {
       description:
         "A Voice assistent app, allows to search query through voice recognition and creates an image from description with elegant UI.",
       tech: <b>React Native & OpenAI (ChatGPT & Dall-E)</b>,
-      link: "",
+      APK: "https://drive.google.com/file/d/1RN2-ABkOp4HVbHp5V35EQn9wgzGkyEAB/view",
     },
     {
       image: SNKRS,
@@ -28,7 +28,7 @@ function Projects() {
       description:
         "Shoe ecommerce app allows users to shop online, browse product catalogs, add items to a cart, and complete purchases.",
       tech: <b>React, Sass, Google Firestore & Firebase authentication</b>,
-      link: "https://ajay24897.github.io/snkrs/",
+      webLink: "https://ajay24897.github.io/snkrs/",
     },
     {
       image: todo,
@@ -37,7 +37,7 @@ function Projects() {
       description:
         "User would be able to enter the tasks that they need to do. Once they are done with their tasks they can also mark as completed/remove them from the list.",
       tech: <b>React, Typescript & Local storage</b>,
-      link: "https://ajay24897.github.io/Todo-web-app/",
+      webLink: "https://ajay24897.github.io/Todo-web-app/",
     },
   ];
 
@@ -73,10 +73,19 @@ function Projects() {
               <text className="project-description">{item.description}</text>
               <text className="project-tech">{item.tech}</text>
 
-              {!!item?.link?.length && (
-                <a href={item.link} target={"_blank"} rel="noreferrer">
+              {!!item?.webLink?.length && (
+                <a href={item.webLink} target={"_blank"} rel="noreferrer">
                   <div className="demo-text">
-                    <text className="demo-text-space">Live Demo</text>
+                    <text className="demo-text-space">Live website</text>
+                    <TbExternalLink size={"1.25rem"} />
+                  </div>
+                </a>
+              )}
+
+              {!!item?.APK?.length && (
+                <a href={item.APK} target={"_blank"} rel="noreferrer">
+                  <div className="demo-text">
+                    <text className="demo-text-space">APK</text>
                     <TbExternalLink size={"1.25rem"} />
                   </div>
                 </a>

@@ -64,6 +64,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 1.5rem;
+  cursor: pointer;
 }
 .demo-text-space {
   margin-right: ".5rem";
