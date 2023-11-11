@@ -17,7 +17,7 @@ function Projects() {
       logo: voiceSearchLogo,
       name: "Voias AI",
       description:
-        "A Voice assistent app, allows to search query through voice recognition and creates an image from description with elegant UI.",
+        "A Voice assistant app, allows to search query through voice recognition and creates an image from description with elegant UI.",
       tech: <b>React Native & OpenAI (ChatGPT & Dall-E)</b>,
       APK: "https://drive.google.com/file/d/1RN2-ABkOp4HVbHp5V35EQn9wgzGkyEAB/view",
     },
