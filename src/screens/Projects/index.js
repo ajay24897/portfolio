@@ -79,7 +79,6 @@ function Projects() {
                   display: "flex",
                   flexDirection: "row",
                   justifyContent: "space-evenly",
-                  background: "red",
                 }}
               >
                 {!!item?.webLink?.length && (
