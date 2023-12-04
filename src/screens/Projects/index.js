@@ -29,6 +29,7 @@ function Projects() {
         "Shoe ecommerce app allows users to shop online, browse product catalogs, add items to a cart, and complete purchases.",
       tech: <b>React, Sass, Google Firestore & Firebase authentication</b>,
       webLink: "https://ajay24897.github.io/snkrs/",
+      youtube: "https://www.youtube.com/watch?v=AiRDzchH99c",
     },
     {
       image: todo,
@@ -73,23 +74,41 @@ function Projects() {
               <text className="project-description">{item.description}</text>
               <text className="project-tech">{item.tech}</text>
 
-              {!!item?.webLink?.length && (
-                <a href={item.webLink} target={"_blank"} rel="noreferrer">
-                  <div className="demo-text">
-                    <text className="demo-text-space">Live website</text>
-                    <TbExternalLink size={"1.25rem"} />
-                  </div>
-                </a>
-              )}
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  justifyContent: "space-evenly",
+                  background: "red",
+                }}
+              >
+                {!!item?.webLink?.length && (
+                  <a href={item.webLink} target={"_blank"} rel="noreferrer">
+                    <div className="demo-text">
+                      <text className="demo-text-space">Live website</text>
+                      <TbExternalLink size={"1.25rem"} />
+                    </div>
+                  </a>
+                )}
 
-              {!!item?.APK?.length && (
-                <a href={item.APK} target={"_blank"} rel="noreferrer">
-                  <div className="demo-text">
-                    <text className="demo-text-space">APK</text>
-                    <TbExternalLink size={"1.25rem"} />
-                  </div>
-                </a>
-              )}
+                {!!item?.youtube?.length && (
+                  <a href={item.youtube} target={"_blank"} rel="noreferrer">
+                    <div className="demo-text">
+                      <text className="demo-text-space">Video</text>
+                      <TbExternalLink size={"1.25rem"} />
+                    </div>
+                  </a>
+                )}
+
+                {!!item?.APK?.length && (
+                  <a href={item.APK} target={"_blank"} rel="noreferrer">
+                    <div className="demo-text">
+                      <text className="demo-text-space">APK</text>
+                      <TbExternalLink size={"1.25rem"} />
+                    </div>
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         ))}
