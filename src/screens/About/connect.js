@@ -45,16 +45,24 @@ function Connect() {
           Phone
         </text>
 
-        <text
+        {/* <text
           className="connect-info"
           onClick={() => {
             navigator.clipboard.writeText("+917021375254");
           }}
           data-aos="fade-left"
           data-aos-duration="1500"
+        >  */}
+        <a
+          href="tel:123-456-7890"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          className="connect-info"
         >
           +91 7021375254
-        </text>
+        </a>
+
+        {/* </text> */}
       </div>
     </div>
   );
