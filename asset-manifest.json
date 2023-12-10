@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.16eb6708.css",
-    "main.js": "/portfolio/static/js/main.85ac7356.js",
+    "main.css": "/portfolio/static/css/main.d1a9435c.css",
+    "main.js": "/portfolio/static/js/main.e8ae4792.js",
     "static/media/voiasAI.png": "/portfolio/static/media/voiasAI.8ae9b1e745ee612ac829.png",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.3fd9bda46143fb6008fe.pdf",
@@ -17,11 +17,11 @@
     "static/media/android-studio.svg": "/portfolio/static/media/android-studio.022ae30b7e412a5dd0f5b606fa0c8da7.svg",
     "index.html": "/portfolio/index.html",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
-    "main.16eb6708.css.map": "/portfolio/static/css/main.16eb6708.css.map",
-    "main.85ac7356.js.map": "/portfolio/static/js/main.85ac7356.js.map"
+    "main.d1a9435c.css.map": "/portfolio/static/css/main.d1a9435c.css.map",
+    "main.e8ae4792.js.map": "/portfolio/static/js/main.e8ae4792.js.map"
   },
   "entrypoints": [
-    "static/css/main.16eb6708.css",
-    "static/js/main.85ac7356.js"
+    "static/css/main.d1a9435c.css",
+    "static/js/main.e8ae4792.js"
   ]
 }
