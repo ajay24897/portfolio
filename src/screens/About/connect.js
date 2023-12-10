@@ -54,7 +54,7 @@ function Connect() {
           data-aos-duration="1500"
         >  */}
         <a
-          href="tel:123-456-7890"
+          href="tel:+91 7021375254"
           data-aos="fade-left"
           data-aos-duration="1500"
           className="connect-info"
