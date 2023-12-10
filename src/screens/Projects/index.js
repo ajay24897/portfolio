@@ -17,9 +17,10 @@ function Projects() {
       logo: voiceSearchLogo,
       name: "Voias AI",
       description:
-        "A Voice assistant app, allows to search query through voice recognition and creates an image from description. Implemented elegant UI and smooth navigation.",
+        "A Voice assistant app, allows to search query through voice recognition and creates an image from description with elegant UI and smooth navigation.",
       tech: <b>React Native & OpenAI (ChatGPT & Dall-E)</b>,
       APK: "https://drive.google.com/file/d/1RN2-ABkOp4HVbHp5V35EQn9wgzGkyEAB/view",
+      video: "https://www.youtube.com/watch?v=MPyTDk4hgpQ",
     },
     {
       image: SNKRS,
@@ -29,7 +30,7 @@ function Projects() {
         "Shoe ecommerce app allows users to shop online, browse product catalogs, add items to a cart, and complete purchases.",
       tech: <b>React, Sass, Google Firestore & Firebase authentication</b>,
       webLink: "https://ajay24897.github.io/snkrs/",
-      youtube: "https://www.youtube.com/watch?v=AiRDzchH99c",
+      video: "https://www.youtube.com/watch?v=AiRDzchH99c",
     },
     {
       image: todo,
@@ -71,16 +72,15 @@ function Projects() {
                 />
               </div>
 
-              <text className="project-description">{item.description}</text>
+              <text
+                className="project-description"
+                style={{ fontSize: "1rem", fontWeight: "500" }}
+              >
+                {item.description}
+              </text>
               <text className="project-tech">{item.tech}</text>
 
-              <div
-                style={{
-                  display: "flex",
-                  flexDirection: "row",
-                  justifyContent: "space-evenly",
-                }}
-              >
+              <div className="project-description">
                 {!!item?.webLink?.length && (
                   <a href={item.webLink} target={"_blank"} rel="noreferrer">
                     <div className="demo-text">
@@ -90,19 +90,19 @@ function Projects() {
                   </a>
                 )}
 
-                {!!item?.youtube?.length && (
-                  <a href={item.youtube} target={"_blank"} rel="noreferrer">
+                {!!item?.APK?.length && (
+                  <a href={item.APK} target={"_blank"} rel="noreferrer">
                     <div className="demo-text">
-                      <text className="demo-text-space">Video</text>
+                      <text className="demo-text-space">APK</text>
                       <TbExternalLink size={"1.25rem"} />
                     </div>
                   </a>
                 )}
 
-                {!!item?.APK?.length && (
-                  <a href={item.APK} target={"_blank"} rel="noreferrer">
+                {!!item?.video?.length && (
+                  <a href={item.video} target={"_blank"} rel="noreferrer">
                     <div className="demo-text">
-                      <text className="demo-text-space">APK</text>
+                      <text className="demo-text-space">Video</text>
                       <TbExternalLink size={"1.25rem"} />
                     </div>
                   </a>
