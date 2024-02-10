@@ -3,15 +3,27 @@ import SNKRS from "../../assets/project_banner/snkrs.png";
 import todo from "../../assets/project_banner/todo.png";
 import done from "../../assets/icons/done.png";
 import VoiasAI from "../../assets/project_banner/voiasAI.png";
+import HungryTummy from "../../assets/project_banner/hungryTummy.jpeg";
 
 import snkrLogo from "../../assets/icons/sneakers.png";
 import voiceSearchLogo from "../../assets/icons/voice_search.png";
+import hungryTummyLogo from "../../assets/icons/hungryTummyLogo.png";
 
 import "./style.css";
 import { TbExternalLink } from "react-icons/tb";
 
 function Projects() {
   const project = [
+    {
+      image: HungryTummy,
+      logo: hungryTummyLogo,
+      name: "Hungry Tummy",
+      description:
+        "An online meal ordering app with captivating animations and a sleek UI for best user experience. Integrated with MealDB API.",
+      tech: <b>React Native, Reanimated, NativeWind & MealDB API</b>,
+      // APK: "https://drive.google.com/file/d/1RN2-ABkOp4HVbHp5V35EQn9wgzGkyEAB/view",
+      video: "https://www.youtube.com/watch?v=zgKPk-7nYKQ",
+    },
     {
       image: VoiasAI,
       logo: voiceSearchLogo,
