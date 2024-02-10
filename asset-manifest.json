@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d1a9435c.css",
-    "main.js": "/portfolio/static/js/main.f11cd9ab.js",
+    "main.js": "/portfolio/static/js/main.25aca667.js",
     "static/media/voiasAI.png": "/portfolio/static/media/voiasAI.8ae9b1e745ee612ac829.png",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
+    "static/media/hungryTummy.jpeg": "/portfolio/static/media/hungryTummy.b37b2768db02598cbbdf.jpeg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.3fd9bda46143fb6008fe.pdf",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.576d4051a83bd18e2cb4.jpeg",
     "static/media/todo.png": "/portfolio/static/media/todo.7bdb11c5f307791a0349.png",
+    "static/media/hungryTummyLogo.png": "/portfolio/static/media/hungryTummyLogo.2896337bf4cf8e08ae7e.png",
     "static/media/jigsaw.png": "/portfolio/static/media/jigsaw.a446ec74a014be10917a.png",
     "static/media/education.png": "/portfolio/static/media/education.386fe7da3eb2a2be8d55.png",
     "static/media/certificate.png": "/portfolio/static/media/certificate.67659afa0791ae18ac73.png",
@@ -18,10 +20,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
     "main.d1a9435c.css.map": "/portfolio/static/css/main.d1a9435c.css.map",
-    "main.f11cd9ab.js.map": "/portfolio/static/js/main.f11cd9ab.js.map"
+    "main.25aca667.js.map": "/portfolio/static/js/main.25aca667.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a9435c.css",
-    "static/js/main.f11cd9ab.js"
+    "static/js/main.25aca667.js"
   ]
 }
