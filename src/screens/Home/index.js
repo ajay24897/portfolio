@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Profile from "../../assets/images/profile.jpeg";
-import Resume from "../../assets/files/Ajay Chawada resume front-end developer.pdf.pdf";
+import Resume from "../../assets/files/Ajay Chawada resume front-end developer.pdf";
 
 import { skillList, skillList2 } from "../../constants";
 
