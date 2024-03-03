@@ -11,9 +11,9 @@ function Home() {
     <div className="common-pages-wrapper" id="home">
       <div id="home-main-content" className="common-width">
         <div id="home-left-section" data-aos="fade-right">
-          <text id="home-left-title">React / React Native Developer 👋🏻</text>
+          <text id="home-left-title">React JS & React Native Developer 👋🏻</text>
           <text id="home-left-decription">
-            Hi, I am Ajay Chawada. A passionate Front-end developer holding 4.5
+            Hi, I am Ajay Chawada. A passionate Front-end developer holding 4.5+
             years of experience.
           </text>
           <text id="home-left-decription">📍 Mumbai, India 🇮🇳</text>
