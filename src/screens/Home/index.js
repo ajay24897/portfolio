@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Profile from "../../assets/images/profile.jpeg";
-import Resume from "../../assets/files/resume.pdf";
+import Resume from "../../assets/files/Ajay Chawada resume front-end developer.pdf.pdf";
 
 import { skillList, skillList2 } from "../../constants";
 
@@ -13,7 +13,7 @@ function Home() {
         <div id="home-left-section" data-aos="fade-right">
           <text id="home-left-title">React / React Native Developer 👋🏻</text>
           <text id="home-left-decription">
-            Hi, I am Ajay Chawada. A passionate Front-end developer holding 4
+            Hi, I am Ajay Chawada. A passionate Front-end developer holding 4.5
             years of experience.
           </text>
           <text id="home-left-decription">📍 Mumbai, India 🇮🇳</text>

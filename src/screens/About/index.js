@@ -14,8 +14,9 @@ function About() {
       link: "https://www.udemy.com/certificate/UC-2ed55c2b-a90f-401e-98bd-1180ca9760d6/",
     },
     {
-      text: "React - Hackerrank",
-      link: "https://www.hackerrank.com/certificates/ece190b93d41",
+      text: "Frontend Developer React - Hackerrank",
+      // link: "https://www.hackerrank.com/certificates/ece190b93d41",
+      link: "https://www.hackerrank.com/certificates/4334a0058279",
     },
     {
       text: "Javascript - Hackerrank",
