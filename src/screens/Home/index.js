@@ -11,10 +11,10 @@ function Home() {
     <div className="common-pages-wrapper" id="home">
       <div id="home-main-content" className="common-width">
         <div id="home-left-section" data-aos="fade-right">
-          <text id="home-left-title">React JS & React Native Developer 👋🏻</text>
+          <text id="home-left-title">React JS & React Native Developer</text>
           <text id="home-left-decription">
-            Hi, I am Ajay Chawada. A passionate Front-end developer holding 4.5+
-            years of experience.
+            Hi 👋🏻, I am Ajay Chawada. A passionate front-end developer holding
+            equivalent to 5 years of experience.
           </text>
           <text id="home-left-decription">📍 Mumbai, India 🇮🇳</text>
           <div>
@@ -51,14 +51,15 @@ function Home() {
         Tech Stack
       </text>
 
-      <div id="skill-conatiner" className="common-width">
+      <div
+        id="skill-conatiner"
+        className="common-width"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
         <div id="skills">
           {skillList.map((item) => (
-            <div
-              className="skill-wrapper"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
+            <div className="skill-wrapper">
               <item.logo {...item.logoProps} className="primary-skill-logo" />
             </div>
           ))}
@@ -66,11 +67,7 @@ function Home() {
         <div>
           <div id="skills" className="skill-list-2">
             {skillList2.map((item) => (
-              <div
-                className="skill-wrapper"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
+              <div className="skill-wrapper">
                 <img
                   src={item.src}
                   alt={item.text}
