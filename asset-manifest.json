@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.879030e8.css",
-    "main.js": "/portfolio/static/js/main.82e8ff68.js",
+    "main.css": "/portfolio/static/css/main.6fdc91a8.css",
+    "main.js": "/portfolio/static/js/main.d6da1e08.js",
     "static/media/voiasAI.png": "/portfolio/static/media/voiasAI.8ae9b1e745ee612ac829.png",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
     "static/media/hungryTummy.jpeg": "/portfolio/static/media/hungryTummy.b37b2768db02598cbbdf.jpeg",
@@ -18,12 +18,10 @@
     "static/media/xcode.svg": "/portfolio/static/media/xcode.13570ce65b20f8cdcbd5ebb2f6e43a39.svg",
     "static/media/android-studio.svg": "/portfolio/static/media/android-studio.022ae30b7e412a5dd0f5b606fa0c8da7.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg",
-    "main.879030e8.css.map": "/portfolio/static/css/main.879030e8.css.map",
-    "main.82e8ff68.js.map": "/portfolio/static/js/main.82e8ff68.js.map"
+    "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg"
   },
   "entrypoints": [
-    "static/css/main.879030e8.css",
-    "static/js/main.82e8ff68.js"
+    "static/css/main.6fdc91a8.css",
+    "static/js/main.d6da1e08.js"
   ]
 }
