@@ -14,7 +14,7 @@ function Home() {
           <text id="home-left-title">React JS & React Native Developer</text>
           <text id="home-left-decription">
             Hi 👋🏻, I am Ajay Chawada. A passionate front-end developer holding
-            equivalent to 5 years of experience.
+            equivalent to 7 years of experience.
           </text>
           <text id="home-left-decription">📍 Mumbai, India 🇮🇳</text>
           <div>
