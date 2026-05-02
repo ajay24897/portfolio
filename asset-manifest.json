@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6fdc91a8.css",
-    "main.js": "/portfolio/static/js/main.c919267f.js",
+    "main.css": "/portfolio/static/css/main.1c23d471.css",
+    "main.js": "/portfolio/static/js/main.dfe3887a.js",
     "static/media/voiasAI.png": "/portfolio/static/media/voiasAI.8ae9b1e745ee612ac829.png",
     "static/media/snkrs.png": "/portfolio/static/media/snkrs.a8e6b5e8d0b13dbb9664.png",
     "static/media/hungryTummy.jpeg": "/portfolio/static/media/hungryTummy.b37b2768db02598cbbdf.jpeg",
     "static/media/profile.jpeg": "/portfolio/static/media/profile.576d4051a83bd18e2cb4.jpeg",
     "static/media/todo.png": "/portfolio/static/media/todo.7bdb11c5f307791a0349.png",
     "static/media/hungryTummyLogo.png": "/portfolio/static/media/hungryTummyLogo.2896337bf4cf8e08ae7e.png",
-    "static/media/Ajay Chawada resume front-end developer.pdf": "/portfolio/static/media/Ajay Chawada resume front-end developer.6d43db4da36ffa4d4bc9.pdf",
+    "static/media/Ajay Chawada resume front-end developer.pdf": "/portfolio/static/media/Ajay Chawada resume front-end developer.cd6ccd97d162b52d0680.pdf",
     "static/media/jigsaw.png": "/portfolio/static/media/jigsaw.a446ec74a014be10917a.png",
     "static/media/education.png": "/portfolio/static/media/education.386fe7da3eb2a2be8d55.png",
     "static/media/certificate.png": "/portfolio/static/media/certificate.67659afa0791ae18ac73.png",
@@ -21,7 +21,7 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.f20748caf2dac55710ddeed71de0bac4.svg"
   },
   "entrypoints": [
-    "static/css/main.6fdc91a8.css",
-    "static/js/main.c919267f.js"
+    "static/css/main.1c23d471.css",
+    "static/js/main.dfe3887a.js"
   ]
 }
