@@ -6,6 +6,10 @@
   scroll-padding-top: 3rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --blue: #0073cf; /* link */
   --dark-blue: #1b5583;
@@ -76,4 +80,90 @@ a {
   .common-width {
     width: 60%;
   }
+}
+
+/* Enhanced Interactive Styles */
+button, a {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+button:hover, a:hover {
+  transform: translateY(-2px);
+}
+
+/* Back to Top Button */
+#back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 45px;
+  height: 45px;
+  background: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 115, 207, 0.3);
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+#back-to-top.show {
+  display: flex;
+}
+
+#back-to-top:hover {
+  background: var(--dark-blue);
+  box-shadow: 0 6px 16px rgba(0, 115, 207, 0.4);
+  transform: translateY(-4px);
+}
+
+@media screen and (max-width: 768px) {
+  #back-to-top {
+    bottom: 1rem;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+
+/* Smooth Transitions for Interactive Elements */
+.interactive-element {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.interactive-element:hover {
+  transform: scale(1.05);
+}
+
+/* Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  background: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  font-weight: 600;
+  gap: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 115, 207, 0.3);
+}
+
+.button:hover {
+  background: var(--dark-blue);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 115, 207, 0.4);
+}
+
+.button:active {
+  transform: translateY(-1px);
 }

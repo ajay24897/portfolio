@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 import Navbar from "./components/Navbar";
+import BackToTop from "./components/BackToTop";
 import Home from "./screens/Home";
 import Projects from "./screens/Projects";
 import About from "./screens/About";
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <BackToTop />
       <Home />
       <Projects />
       <About />

@@ -11,6 +11,8 @@
   left: 0;
   right: 0;
   z-index: 10000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 /* total nav bar height 47.5px ~ 3rem */
@@ -30,6 +32,37 @@
 .navbar-right-item {
   margin-left: 2rem;
   cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  padding-bottom: 0.25rem;
+  position: relative;
+}
+
+.navbar-right-item:hover {
+  color: var(--blue);
+  transform: translateY(-2px);
+}
+
+.navbar-right-item::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background: var(--blue);
+  transition: width 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.navbar-right-item:hover::after {
+  width: 100%;
+}
+
+.navbar-right-item.active {
+  color: var(--blue);
+}
+
+.navbar-right-item.active::after {
+  width: 100%;
 }
 
 #navbar-right-section-hamburger {

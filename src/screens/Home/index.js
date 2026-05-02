@@ -35,7 +35,7 @@ function Home() {
             </a>
 
             <a
-              className="button"
+              className="icon"
               href={Resume}
               download="Ajay Chawada Resume.pdf"
             >

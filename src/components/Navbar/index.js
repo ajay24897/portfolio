@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { RiCloseLine } from "react-icons/ri";
 import { FiBarChart2 } from "react-icons/fi";
@@ -6,10 +6,34 @@ import "./style.css";
 
 function Navbar() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [activeSection, setActiveSection] = useState("home");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["home", "projects", "about", "contact"];
+      for (let section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= 150 && rect.bottom >= 150) {
+            setActiveSection(section);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollTo = (id) => {
     let page = document.getElementById(id);
-    page.scrollIntoView({ behavior: "smooth" });
+    if (page) {
+      page.scrollIntoView({ behavior: "smooth" });
+      setActiveSection(id);
+      setShowMobileMenu(false);
+    }
   };
 
   const handleMenuClick = () => {
@@ -20,20 +44,29 @@ function Navbar() {
     <div id="navbarWrapper">
       <div id="navbar-left-section">Ajay.dev</div>
       <div id="navbar-right-section">
-        <text className="navbar-right-item" onClick={() => scrollTo("home")}>
+        <text
+          className={`navbar-right-item ${activeSection === "home" ? "active" : ""}`}
+          onClick={() => scrollTo("home")}
+        >
           Home
         </text>
 
         <text
-          className="navbar-right-item"
+          className={`navbar-right-item ${activeSection === "projects" ? "active" : ""}`}
           onClick={() => scrollTo("projects")}
         >
           Projects
         </text>
-        <text className="navbar-right-item" onClick={() => scrollTo("about")}>
+        <text
+          className={`navbar-right-item ${activeSection === "about" ? "active" : ""}`}
+          onClick={() => scrollTo("about")}
+        >
           About
         </text>
-        <text className="navbar-right-item" onClick={() => scrollTo("contact")}>
+        <text
+          className={`navbar-right-item ${activeSection === "contact" ? "active" : ""}`}
+          onClick={() => scrollTo("contact")}
+        >
           Contact
         </text>
       </div>

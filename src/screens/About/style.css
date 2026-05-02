@@ -47,6 +47,13 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  cursor: pointer;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--black-shadow) 0px 12px 24px !important;
 }
 #connect-wrapper {
   display: flex;
@@ -69,6 +76,12 @@
   margin-left: 0.5rem;
   margin-bottom: 2rem;
   cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.connect-info:hover {
+  color: var(--blue);
+  transform: translateX(4px);
 }
 
 @media screen and (max-width: 550px) {
@@ -94,4 +107,9 @@
   margin-bottom: 0.5rem;
   width: 6rem;
   height: 6rem;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.about-card:hover .about-icons {
+  transform: scale(1.1) rotate(5deg);
 }
